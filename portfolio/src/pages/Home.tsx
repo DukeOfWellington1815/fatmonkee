@@ -1,13 +1,16 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
+import NavBar from '../components/NavBar';
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <img src='../img/fatmonkeeLogo.jpeg'></img>
+        <IonToolbar> 
+
+          <NavBar/>
+
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
